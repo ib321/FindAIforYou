@@ -1,0 +1,148 @@
+[{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a87657813a87d80d487e91_adagency-co-nz-logo.png",
+    "name": "Ad Agency",
+    "shortDesc": "An ad agency platform for creative advertising.",
+    "redirectLink": "https://www.adagency.co.nz/?ref=cosmospixel.ib",
+    "tags": ["Copywriting"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a86d175333adc5876e6dd9_promptkeeps-logo.png",
+    "name": "Prompt Keeps",
+    "shortDesc": "A platform with expert ai agents.",
+    "redirectLink": "https://www.promptkeeps.com/?ref=cosmospixel.ib",
+    "tags": ["Chat"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a793cc36880b2e4ca16d61_649c3ce6fe1f58472268e552_Spellmint%2520-%2520OpenGraph.png",
+    "name": "Spellmint",
+    "shortDesc": "A tool for teams to create detailed plans and strategies.",
+    "redirectLink": "https://spellmint.com/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a793cbfdc0affcf6f9e798_61b1e97f2e923565ed87e025_SmartSuite-OG.jpeg",
+    "name": "SmartSuite",
+    "shortDesc": "A comprehensive platform for work management with collaboration and automation.",
+    "redirectLink": "https://www.smartsuite.com/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a793cafdc0affcf6f9e738_Backlink_GPT_Slogan.db91a095.png",
+    "name": "BacklinkGPT",
+    "shortDesc": "A tool to help with outreach campaigns and acquire seo backlinks.",
+    "redirectLink": "https://www.backlinkgpt.com/?ref=cosmospixel.ib",
+    "tags": ["Marketing"]
+},{
+    "pricingModel": "Price Unknown / Product Not Launched Yet",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a84bbc96404876d0fe89aa_secondselfai-logo.png",
+    "name": "Second Self",
+    "shortDesc": "A tool for connecting fans with virtual versions of social media stars.",
+    "redirectLink": "https://secondselfai.com/?ref=cosmospixel.ib",
+    "tags": ["Avatar"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a70b3aff5099e5bf9a686b_bulletpoints-news-logo.png",
+    "name": "Bullet Points AI",
+    "shortDesc": "A tool provides AI-generated news briefs on customizable topics.",
+    "redirectLink": "https://bulletpoints.news/?ref=cosmospixel.ib",
+    "tags": ["Research"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a70a4eae19cc93f5b4be19_twoslash-ai.jpeg",
+    "name": "TwoSlash",
+    "shortDesc": "A Google Chrome extension to create and improve content.",
+    "redirectLink": "https://twoslash.ai/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a5f6b67ef1a11284f6f767_8pJ3clA7MSdVga1DgNWcofT5NgY.png",
+    "name": "Knowledg.io",
+    "shortDesc": "A platform to automate AI tasks and streamlines workflow.",
+    "redirectLink": "https://knowledg.io/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a707e1434ff3496f8ac6ae_replygenius-ai-logo.webp",
+    "name": "ReplyGenius.ai",
+    "shortDesc": "A platform for reviews and online reputation management.",
+    "redirectLink": "https://replygenius.ai/?ref=cosmospixel.ib",
+    "tags": ["Marketing"]
+},{
+    "pricingModel": "Price Unknown / Product Not Launched Yet",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a70461ffb6460072abe434_hoopsai-logo.webp",
+    "name": "hoopsAI",
+    "shortDesc": "A platform for personalized stock market insights and other investing tools.",
+    "redirectLink": "https://www.hoopsai.com/?ref=cosmospixel.ib",
+    "tags": ["Finance"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a5f6b3bfa72169654c84e9_fb-preview.png",
+    "name": "Foxy Apps",
+    "shortDesc": "A platform to create lead magnet apps.",
+    "redirectLink": "https://www.foxyapps.com/?ref=cosmospixel.ib",
+    "tags": ["Marketing"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a5f6b1f24ae1f22ab031a9_meta_image.png",
+    "name": "Myreader AI",
+    "shortDesc": "A tool to ask and answer questions about book content.",
+    "redirectLink": "https://www.myreader.ai/?ref=cosmospixel.ib",
+    "tags": ["Research"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a70039cda2adee3a62dae5_ween-ai-logo.png",
+    "name": "Ween.ai",
+    "shortDesc": "A tool to transform customer feedback into actionable insights.",
+    "redirectLink": "https://www.ween.ai/?ref=cosmospixel.ib",
+    "tags": ["Research"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a5f6b02d6eb04ace6ed361_og.png",
+    "name": "Submagic",
+    "shortDesc": "A tool to generate video captions along with emojis.",
+    "redirectLink": "https://submagic.co/?ref=cosmospixel.ib",
+    "tags": ["Video Editing"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a5f6af2d6eb04ace6ed334_zzzz202306051685958778357img_v2_1f4853ff-88c0-4cd0-b1aa-ac5fdc4df7bg.png",
+    "name": "MindOS",
+    "shortDesc": "A platform for deploying autonomous AI agents for professional tasks.",
+    "redirectLink": "https://mindos.com/?ref=cosmospixel.ib",
+    "tags": ["Chat"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a6f5982506c592473539b8_binko-ai-logo.png",
+    "name": "Binko Chat",
+    "shortDesc": "A chat app to communicate with real-time translations.",
+    "redirectLink": "https://www.binko.ai/?ref=cosmospixel.ib",
+    "tags": ["Translation"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a3a7ca9c3be8c7bc14555d_b12-logo_1200w.png",
+    "name": "B12",
+    "shortDesc": "An AI website builder.",
+    "redirectLink": "https://www.b12.io/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a3a7cafe95dad2f9eb3713_soco_logo_black.png",
+    "name": "Sococal.ai",
+    "shortDesc": "AI tool for social media content creation and optimization.",
+    "redirectLink": "https://sococal.ai/?ref=cosmospixel.ib",
+    "tags": ["Marketing"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a3a7c99c3be8c7bc1454f8_social.jpeg",
+    "name": "MagicBuddy",
+    "shortDesc": "A Telegram Bot to talk to chatgpt.",
+    "redirectLink": "https://magicbuddy.chat/?ref=cosmospixel.ib",
+    "tags": ["Chat"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a45349f2cb148245b33dea_eesel-ai-logo.png",
+    "name": "eesel.ai",
+    "shortDesc": "A knowledge connection tool with instant question answering capabilities.",
+    "redirectLink": "https://www.eesel.ai/?ref=cosmospixel.ib",
+    "tags": ["Chat"]
+}]
