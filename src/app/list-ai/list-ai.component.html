@@ -2,25 +2,50 @@
   <input type="text"
     class="search search-box-div-input search-input" maxlength="256" name="Search"
     placeholder="Search to find specific tools for your needs..."
-    id="Search">
+    id="Search" [(ngModel)]="searchBoxInput" (ngModelChange)="onSearchOrSort()">
 </div>
 
+<!----------------------------------------------------------->
+<form (change)="onPricingModelCheck()" #checkboxForm="ngForm">
+  <div class="container">
+    <div class="row price-row">
+      <div class="col" *ngFor="let pricingModel of pricingModelOptions">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            [id]="pricingModel.value"
+            [name]="pricingModel.value"
+            [(ngModel)]="selectedPricingModels[pricingModel.value]"
+          />
+          <label class="form-check-label" [for]="pricingModel.value">{{ pricingModel.label }}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+<style>
+.price-row{
+  --bs-gutter-x: -23rem;
+}
+</style>
+<!----------------------------------------------------------->
+<br>
 <div class="summary-sort-row row">
+
   <div class="toolnumber col-md-6">
     <div class="result-number-div">Showing {{searchedToolsCount}} of {{totalToolsCount}} Total Tools.</div>
   </div>
 
   <div class="selector col-md-6">
     <div class="dropdown form-block-6 w-form">
-      <form id="email-form-3" name="email-form-3" data-name="Email Form 3" method="get" class="form-5">
-        <select id="field" name="field" data-name="Field" class="btn select-dropdown">
+        <select id="sortField" name="sortField" class="btn select-dropdown" [(ngModel)]="selectedValue" (change)="onSearchOrSort()">
           <option value="">Sort (Default - Newest)</option>
-          <option value="jetboost-sort-asc-nr66">Sort By Name (A-Z)</option>
-          <option value="jetboost-sort-desc-nr66">Sort By Name (Z-A)</option>
-          <option value="jetboost-sort-desc-mply">Date Added (Newest-Oldest)</option>
-          <option value="jetboost-sort-asc-mply">Date Added (Oldest-Newest)</option>
+          <option value="sort-asc-name">Sort By Name (A-Z)</option>
+          <option value="sort-desc-name">Sort By Name (Z-A)</option>
+          <option value="sort-desc-date">Date Added (Newest-Oldest)</option>
+          <option value="sort-asc-date">Date Added (Oldest-Newest)</option>
         </select>
-      </form>
     </div>
   </div>
 
@@ -28,27 +53,30 @@
 <br>
 
 <div class="row">
-  <div class="card-wrapper col-md-6" *ngFor="let item of data">
+  <div class="card-wrapper col-md-6" *ngFor="let aitool of UpdatedAiTools">
     <div class="card mb-3">
       <div class="card-row row g-0">
         <div class="card-row-colum1-div1 col-md-5">
-          <a href="{{item.redirectLink}}" target="_blank" class="card-row-colum1-link">
-            <img [src]="item.imageLink"  alt="alt_card_img" class="img-fluid rounded-start card-row-colum1-div1-img"/>
+          <a href="{{aitool.redirectLink}}" target="_blank" class="card-row-colum1-link">
+            <img [src]="aitool.imageLink"  alt="alt_card_img" class="img-fluid rounded-start card-row-colum1-div1-img"/>
           </a>
         </div>
         <div class="card-row-colum2-div1 col-md-7">
-          <div class="card-body">
+          <div class="card-body py-0">
             <h3 class="card-title">
-              <a href="{{item.redirectLink}}" class="card-title-name" target="_blank">{{ item.name }}</a>
+              <a href="{{aitool.redirectLink}}" class="card-title-name" target="_blank">{{ aitool.name }}</a>
 
-              <a href="{{item.redirectLink}}" target="_blank" class="card-title-redirect">
+              <a href="{{aitool.redirectLink}}" target="_blank" class="card-title-redirect">
                 <img class="card-title-redirect-img" src="assets/share.png" alt="share">
               </a>
             </h3>
+            <div class="card-text card-text-shortdesc" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden;">
+              <p title="{{ aitool.shortDesc }}">{{ aitool.shortDesc }}</p>
+            </div>
             <div class="card-text">
-              <p>{{ item.shortDesc }}</p>
-              {{ item.pricingModel }}
-              <p>Tags: {{ item.tags.join(', ') }}</p>
+              <p>Tags: {{ aitool.tags.join(', ') }}</p>
+              <p *ngIf="aitool.pricingModel === 'Price Unknown / Product Not Launched Yet'; else normalPrice">Price Unknown</p>
+              <ng-template #normalPrice><p>{{ aitool.pricingModel }}</ng-template>
             </div>
           </div>
         </div>
