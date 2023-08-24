@@ -1,12 +1,36 @@
+<!--------------------------Search Box--------------------------------->
 <div class="search-box-div">
   <input type="text"
     class="search search-box-div-input search-input" maxlength="256" name="Search"
     placeholder="Search to find specific tools for your needs..."
-    id="Search" [(ngModel)]="searchBoxInput" (ngModelChange)="onSearchOrSort()">
+    id="Search" [(ngModel)]="searchBoxInput" (ngModelChange)="onSearchSortOrTag()">
 </div>
+<!--------------------------------------------------------------------->
 
-<!----------------------------------------------------------->
-<form (change)="onPricingModelCheck()" #checkboxForm="ngForm">
+<!---------------------------Tags-------------------------------------->
+<form (change)="onSearchSortOrTag()" #checkboxForm="ngForm">
+  <div class="container">
+    <div class="row tags-row">
+      <div class="col-md-2" *ngFor="let tag of tagOptions">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            [id]="tag.value"
+            [name]="tag.value"
+            [(ngModel)]="selectedTags[tag.value]"
+          />
+          <label class="form-check-label tags-label" [for]="tag.value">{{ tag.label }}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+<br>
+<!--------------------------------------------------------------------->
+
+<!---------------------------Price Models------------------------------>
+<form (change)="onSearchSortOrTag()" #checkboxForm="ngForm">
   <div class="container">
     <div class="row price-row">
       <div class="col" *ngFor="let pricingModel of pricingModelOptions">
@@ -24,13 +48,9 @@
     </div>
   </div>
 </form>
-<style>
-.price-row{
-  --bs-gutter-x: -23rem;
-}
-</style>
-<!----------------------------------------------------------->
+<!--------------------------------------------------------------------->
 <br>
+<!------------------------------Summary and Sort row------------------->
 <div class="summary-sort-row row">
 
   <div class="toolnumber col-md-6">
@@ -39,7 +59,7 @@
 
   <div class="selector col-md-6">
     <div class="dropdown form-block-6 w-form">
-        <select id="sortField" name="sortField" class="btn select-dropdown" [(ngModel)]="selectedValue" (change)="onSearchOrSort()">
+        <select id="sortField" name="sortField" class="btn select-dropdown" [(ngModel)]="sortFieldSelectedValue" (change)="onSearchSortOrTag()">
           <option value="">Sort (Default - Newest)</option>
           <option value="sort-asc-name">Sort By Name (A-Z)</option>
           <option value="sort-desc-name">Sort By Name (Z-A)</option>
@@ -50,15 +70,16 @@
   </div>
 
 </div>
+<!--------------------------------------------------------------------->
 <br>
-
+<!---------------------------Tools Cards List-------------------------->
 <div class="row">
   <div class="card-wrapper col-md-6" *ngFor="let aitool of UpdatedAiTools">
     <div class="card mb-3">
       <div class="card-row row g-0">
         <div class="card-row-colum1-div1 col-md-5">
           <a href="{{aitool.redirectLink}}" target="_blank" class="card-row-colum1-link">
-            <img [src]="aitool.imageLink"  alt="alt_card_img" class="img-fluid rounded-start card-row-colum1-div1-img"/>
+            <img loading="lazy" [src]="aitool.imageLink" alt="alt_card_img" class="img-fluid rounded-start card-row-colum1-div1-img"/>
           </a>
         </div>
         <div class="card-row-colum2-div1 col-md-7">
@@ -67,16 +88,18 @@
               <a href="{{aitool.redirectLink}}" class="card-title-name" target="_blank">{{ aitool.name }}</a>
 
               <a href="{{aitool.redirectLink}}" target="_blank" class="card-title-redirect">
-                <img class="card-title-redirect-img" src="assets/share.png" alt="share">
+                <img loading="lazy" src="assets/share.png" alt="share" class="card-title-redirect-img">
               </a>
             </h3>
-            <div class="card-text card-text-shortdesc" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden;">
+            <div class="card-text card-text-shortdesc">
               <p title="{{ aitool.shortDesc }}">{{ aitool.shortDesc }}</p>
             </div>
-            <div class="card-text">
-              <p>Tags: {{ aitool.tags.join(', ') }}</p>
-              <p *ngIf="aitool.pricingModel === 'Price Unknown / Product Not Launched Yet'; else normalPrice">Price Unknown</p>
-              <ng-template #normalPrice><p>{{ aitool.pricingModel }}</ng-template>
+            <div class="card-text card-text-tag" *ngFor="let aiToolTag of aitool.tags">
+              <p class="text-tag">{{ aiToolTag }}</p>
+            </div>
+            <div class="card-text card-text-model">
+              <p class="text-pricemodel" *ngIf="aitool.pricingModel === 'Price Unknown / Product Not Launched Yet'; else normalPrice">Price Unknown</p>
+              <ng-template #normalPrice><p class="text-pricemodel">{{ aitool.pricingModel }}</ng-template>
             </div>
           </div>
         </div>
@@ -84,3 +107,9 @@
     </div>
   </div>
 </div>
+<!--------------------------------------------------------------------->
+<!----------------------Load More Button------------------------------->
+<div class="load-more-button" >
+  <button *ngIf="UpdatedAiTools.length !== searchedToolsCount" (click)="loadMoreTools()"><i class="fa fa-spinner fa-spin"></i> Load More</button>
+</div>
+<!--------------------------------------------------------------------->

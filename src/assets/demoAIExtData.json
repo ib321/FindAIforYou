@@ -145,4 +145,563 @@
     "shortDesc": "A knowledge connection tool with instant question answering capabilities.",
     "redirectLink": "https://www.eesel.ai/?ref=cosmospixel.ib",
     "tags": ["Chat"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a3a7c798b42cb6fb882b8a_preview.png",
+    "name": "Splash Pro",
+    "shortDesc": "A tool to generate music.",
+    "redirectLink": "https://pro.splashmusic.com/?ref=cosmospixel.ib",
+    "tags": ["Music"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a43fa1e4604c2e29585489_aicodeconvert-logo.png",
+    "name": "AI Code Converter",
+    "shortDesc": "A tool to generate code and convert code from one programming language to another.",
+    "redirectLink": "https://aicodeconvert.com/?ref=cosmospixel.ib",
+    "tags": ["Generative Code"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649f3f286772ee18775d26f1_mby979eTPSDlRpr7H2MNSly1Sk.png",
+    "name": "Drippi.ai",
+    "shortDesc": "A tool to automate personalized Twitter outreach.",
+    "redirectLink": "https://www.drippi.ai/?ref=cosmospixel.ib",
+    "tags": ["Social Media"]
+},{
+    "pricingModel": "Price Unknown / Product Not Launched Yet",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649f3f286772ee18775d247e_37fb17_eb0d4edb9003426e983cd6b5d7ca3700%257Emv2.png",
+    "name": "Magicast.ai",
+    "shortDesc": "A platform to generate personalized podcasts.",
+    "redirectLink": "https://www.magicast.ai/?ref=cosmospixel.ib",
+    "tags": ["Podcasting"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a07545c34374c21d3fbfcf_30stickers-logo.webp",
+    "name": "30 Stickers",
+    "shortDesc": "An app to create custom sticker packs from your photos.",
+    "redirectLink": "https://30stickers.com/?ref=cosmospixel.ib",
+    "tags": ["For Fun"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a074519fd69120a90b8db2_posterstudio-ai-logo.png",
+    "name": "Poster Studio",
+    "shortDesc": "A tool to generate ads and social creatives.",
+    "redirectLink": "https://www.posterstudio.ai/?ref=cosmospixel.ib",
+    "tags": ["Marketing"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649f3f253c1010e991293950_knibble.png",
+    "name": "Knibble.ai",
+    "shortDesc": "A tool to create knowledge base customizable chatbots and document summarization.",
+    "redirectLink": "https://knibble.ai/?ref=cosmospixel.ib",
+    "tags": ["Chat"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649f3f242d366ebacafbac55_shareMain.png",
+    "name": "Makelanding",
+    "shortDesc": "A tool to generate customized landing pages.",
+    "redirectLink": "https://makelanding.ai/?ref=cosmospixel.ib",
+    "tags": ["Marketing"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a072549600a6122604cadc_h2ogpt-logo.png",
+    "name": "h2oGPT",
+    "shortDesc": "A nocode gui for fine-tunning LLMs.",
+    "redirectLink": "https://gpt.h2o.ai/?ref=cosmospixel.ib",
+    "tags": ["Research"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a0700d3480d758036cc15e_facefiesta-io-logo.webp",
+    "name": "FaceFiesta.io",
+    "shortDesc": "A tool to create custom sticker packs from your photos.",
+    "redirectLink": "https://facefiesta.io/?ref=cosmospixel.ib",
+    "tags": ["For Fun"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649f3f215b63311597689e85_girl.3e57bb2bdfafd4309e42.png",
+    "name": "Lotus",
+    "shortDesc": "A virtual therapist chatbot offering support and understanding to individuals.",
+    "redirectLink": "https://lotustherapist.com/?ref=cosmospixel.ib",
+    "tags": ["Self-Improvement"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649f3f202d366ebacafba0db_og-image.jpeg",
+    "name": "LyricStudio",
+    "shortDesc": "A tool to write songs and collaboration.",
+    "redirectLink": "https://lyricstudio.net/?ref=cosmospixel.ib",
+    "tags": ["Music"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64a1b6747fefe242a0d1bd80_heydoc-ai-logo.png",
+    "name": "HeyDoc",
+    "shortDesc": "A chat bot for personalized medical assistance and guidance.",
+    "redirectLink": "https://heydoc.ai/?ref=cosmospixel.ib",
+    "tags": ["Self-Improvement"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649f3f1f8aadec72f0f1432a_628eaed9ab0dfa49751aafd7_twine-slack-zoom-global-hero.png",
+    "name": "twine",
+    "shortDesc": "A tool to automate knowledge sharing and distributes updates for teams.",
+    "redirectLink": "https://www.twine.us/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649e81f57c9efa35a3698392_Q1HAXXSOTyRjcfhkHClAfvDVGI.png",
+    "name": "Dify",
+    "shortDesc": "A platform to develop and operate AI applications.",
+    "redirectLink": "https://dify.ai/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649f0b50b324494672f820d2_iconlabai-logo.png",
+    "name": "IconLab AI",
+    "shortDesc": "A tool for custom app icon generatration.",
+    "redirectLink": "https://www.iconlabai.com/?ref=cosmospixel.ib",
+    "tags": ["Generative Art"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649e955e6137379b413d1b1d_vribble-ai-logo.png",
+    "name": "VribbleAI",
+    "shortDesc": "A tool to capture, store, and organize your thoughts and ideas.",
+    "redirectLink": "https://vribble.ai/?ref=cosmospixel.ib",
+    "tags": ["Speech-To-Text"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649e94006e53d43d17357b32_qr-art-xyz-logo.webp",
+    "name": "QR-Art",
+    "shortDesc": "A tool to generate customizable QR codes from images.",
+    "redirectLink": "https://qr-art.xyz/?ref=cosmospixel.ib",
+    "tags": ["Generative Art"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649e81f101548d2aa8226cce_ogimage.png",
+    "name": "WhatTheBeat",
+    "shortDesc": "A tool to get songs meanings.",
+    "redirectLink": "https://whatthebeat.com/?ref=cosmospixel.ib",
+    "tags": ["Music"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649d45e22828bd3ad57a534a_rebecc-ai-logo.svg",
+    "name": "Rebecc AI",
+    "shortDesc": "A tool to help develop, evaluate, and refine ideas intelligently.",
+    "redirectLink": "https://rebecc.ai/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649ce324d1b3ad8bf28c88b8_642e92f087356_2.jpeg",
+    "name": "Checkmyidea",
+    "shortDesc": "A tool for entrepreneurs to validate and launch business ideas.",
+    "redirectLink": "https://www.checkmyidea-ia.com/?ref=cosmospixel.ib",
+    "tags": ["Research"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649ce3235651a487c36fd48e_thumbnail.png",
+    "name": "SendFame",
+    "shortDesc": "A tool to create personalized celebrity AI videos.",
+    "redirectLink": "https://sendfame.com/?ref=cosmospixel.ib",
+    "tags": ["For Fun"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649b6a33ec42823193910a55_63cb08645c439a69fb7b3e4f_Instant%2520Meeting%2520Summary.png",
+    "name": "Read",
+    "shortDesc": "An app for Zoom customers to improve meetings with summaries, highlights, transcription, analytics and insights.",
+    "redirectLink": "https://www.read.ai/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649c49e10ac0fd76acc894ce_speechlab-ai-logo.png",
+    "name": "SpeechLab",
+    "shortDesc": "An automated dubbing tool for publishers and creators to expand content globally.",
+    "redirectLink": "https://www.speechlab.ai/?ref=cosmospixel.ib",
+    "tags": ["Translation"]
+},{
+    "pricingModel": "Price Unknown / Product Not Launched Yet",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649c45f3b9a15ac54b680c21_ramblefix-com-logo.png",
+    "name": "RambleFix",
+    "shortDesc": "A tool to convert spoken thoughts into written text.",
+    "redirectLink": "https://ramblefix.com/?ref=cosmospixel.ib",
+    "tags": ["Speech-To-Text"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649b6a31fcb70b5c6bf24703_dupdub-logo.png",
+    "name": "DupDub",
+    "shortDesc": "An AI voice studio with voiceovers in multiple languages.",
+    "redirectLink": "https://www.dupdub.com/?ref=cosmospixel.ib",
+    "tags": ["Text-To-Speech"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649b6a3011e15bfe448404dd_GAECzyLaeo1ZQNaacEdUiIhKn8.png",
+    "name": "Animagic",
+    "shortDesc": "An app to transform drawings into animations.",
+    "redirectLink": "https://animagic.app/?ref=cosmospixel.ib",
+    "tags": ["For Fun"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649b6a2f97ca53774f11571d_zeroscope.png",
+    "name": "Zeroscope Text-To-Video",
+    "shortDesc": "A free Hugging Face Space to generate text to video.",
+    "redirectLink": "https://huggingface.co/spaces/fffiloni/zeroscope?ref=cosmospixel.ib",
+    "tags": ["Text-To-Video"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649c373955ea038fcb449cae_body-scan-zing-coach-logo.png",
+    "name": "Body Scan by Zing",
+    "shortDesc": "A tool to measure body fat, lean mass percentage and provide personalized fitness programs.",
+    "redirectLink": "https://body.scan.zing.coach/?ref=cosmospixel.ib",
+    "tags": ["Image Scanning"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649b6a2c5f135ba58b0af415_637fad70385c77cdbb07264e_RepliqThumbnail.png",
+    "name": "RepliQ",
+    "shortDesc": "A tool to create custom AI Avatar videos.",
+    "redirectLink": "https://repliq.co/?ref=cosmospixel.ib",
+    "tags": ["Avatar"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6499fcc84e34145702b0e3fb_avian_meta.b590e9c072c4.jpeg",
+    "name": "Avian ChatGPT Plugin",
+    "shortDesc": "A ChatGPT plugin to access and analyze business data.",
+    "redirectLink": "https://avian.io/product/avian-chatgpt-plugin/?ref=cosmospixel.ib",
+    "tags": ["Marketing"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6499fcc7c001e3ab9390daa4_6e1ef0_67e79ae008194fe0b72e66a0b96d0736%257Emv2.jpeg",
+    "name": "ModularMind",
+    "shortDesc": "A platform connecting AI models for productivity workflows.",
+    "redirectLink": "https://www.join.modularmind.app/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6499fcc64ecd79cd64fbc60f_doks-og.jpeg",
+    "name": "Doks.ai",
+    "shortDesc": "A platform to train chatbots for customized support and documentation.",
+    "redirectLink": "https://doks.ai/?ref=cosmospixel.ib",
+    "tags": ["Chat"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649b20088f1fc74ec471d4bb_formularizer-logo.png",
+    "name": "Formularizer",
+    "shortDesc": "An AI assistant for spreadsheet programs.",
+    "redirectLink": "https://formularizer.com/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6499fcc5fb797daa875cd563_512.png",
+    "name": "Reinforz",
+    "shortDesc": "A platform to automate academic tasks, create and manage quizzes.",
+    "redirectLink": "https://www.reinforz.ai/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Price Unknown / Product Not Launched Yet",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649b1cd04972ecceeaa7d611_puzzicle-logo.png",
+    "name": "Puzzicle",
+    "shortDesc": "A platform for creating engaging, personalized, multimedia lessons.",
+    "redirectLink": "https://buildalesson.org/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6499fcc34e34145702b0df00_6470fa523a28c13eec95ce77_OGP%2520-%2520Wanda%2520v2.jpeg",
+    "name": "Wanda",
+    "shortDesc": "A content repurposing tool for multi-platform social media posts.",
+    "redirectLink": "https://www.wanda.so/?ref=cosmospixel.ib",
+    "tags": ["Social Media"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6499a26264b151b39434c939_SNAG-0053.jpg",
+    "name": "WriteSparkle",
+    "shortDesc": "An AI-powered tool that enables PDF integration and automation of workflows",
+    "redirectLink": "https://writesparkle.ai/?ref=cosmospixel.ib",
+    "tags": [
+        "Copywriting",
+        "Productivity"
+    ]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6499a18f4421e8f844293d72_9hGYFMEjDV6iNCKrcIOL_eavJ8fvnM4FubGHIAgRJcg.webp",
+    "name": "Stable WarpFusion",
+    "shortDesc": "Create amazing AI generated effects in videos (Via Patreon)",
+    "redirectLink": "https://www.patreon.com/posts/stable-v0-15-84106537?ref=cosmospixel.ib",
+    "tags": ["Generative Video"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6497737b5f04430444f91689_editor.png",
+    "name": "Factiverse",
+    "shortDesc": "A tool to check text for mistakes, bias, controversial claims and find credible sources.",
+    "redirectLink": "https://editor.factiverse.ai/?ref=cosmospixel.ib",
+    "tags": ["Research"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6497afaaaaba8f30103d703b_notegenie-ai-logo.png",
+    "name": "NoteGenie",
+    "shortDesc": "A tool for note-taking and optimize notes.",
+    "redirectLink": "https://notegenie.ai/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6497ae5af9c4fffbed9f3556_nonoisy-logo.png",
+    "name": "Nonoisy",
+    "shortDesc": "A tool to edit audio files and improve sound quality.",
+    "redirectLink": "https://nonoisy.com/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649638567eff166508c0ca0e_Unlimited-Social-Posts-10.png",
+    "name": "ToastyAI",
+    "shortDesc": "A tool for podcast content creation, promotion, and optimization.",
+    "redirectLink": "https://toastyai.com/?ref=cosmospixel.ib",
+    "tags": ["Podcasting"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649638550413b2affb857f69_63fef94440f8ce35cf7f0b23_Thumbnail.png",
+    "name": "Rephrase.ai",
+    "shortDesc": "A tool to create videos with digital avatars.",
+    "redirectLink": "https://www.rephrase.ai/?ref=cosmospixel.ib",
+    "tags": ["Text-To-Video"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64963855dff92f2b394b02d5_ai-default.jpeg",
+    "name": "Sendsteps.ai",
+    "shortDesc": "A tool to create interactive presentations.",
+    "redirectLink": "https://www.sendsteps.com/en/ai/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64963854dff92f2b394b021b_design-linkedin%402x.png",
+    "name": "Creasquare",
+    "shortDesc": "A platform for social media content creation and scheduling.",
+    "redirectLink": "https://creasquare.io/?ref=cosmospixel.ib",
+    "tags": ["Social Media"]
+},{
+    "pricingModel": "Price Unknown / Product Not Launched Yet",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6496384f4f3d1c67b63d3e5d_64504635c77e117db44fef6b_holly%2520banner.png",
+    "name": "Holly",
+    "shortDesc": "A tool to automate talent acquisition, finding potential candidates.",
+    "redirectLink": "https://www.hollyhires.ai/?ref=cosmospixel.ib",
+    "tags": ["Self-Improvement"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64963850645c1505395bb9e1_new.en.min.png",
+    "name": "Crisp",
+    "shortDesc": "A customer service platform to personalized customer engagement solutions.",
+    "redirectLink": "https://crisp.chat/en/new/?ref=cosmospixel.ib",
+    "tags": ["Chat"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6495def95967b4edf5b016ab_NExTNet-logo.jpeg",
+    "name": "NExTNet",
+    "shortDesc": "A tool for scientists to uncover novel insights from biomedical data sources.",
+    "redirectLink": "https://nextnetinc.com/?ref=cosmospixel.ib",
+    "tags": ["Research"]
+},{
+    "pricingModel": "Price Unknown / Product Not Launched Yet",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6494bdd68528afa838f01b34_8265gbqr6P2kR1W6Jbwpt2U7v7Y.png",
+    "name": "Kits AI",
+    "shortDesc": "A free AI voice platform for musicians to create and train AI voices.",
+    "redirectLink": "https://www.kits.ai/?ref=cosmospixel.ib",
+    "tags": ["Music"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6495dc17479b6dadd1c58473_roketfy-com-logo.webp",
+    "name": "Roketfy",
+    "shortDesc": "A platform with tools to seo and optimize Etsy sales.",
+    "redirectLink": "https://roketfy.com/?ref=cosmospixel.ib",
+    "tags": ["Marketing"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6495db2c22ba7927a0e354a3_clickup-logo.png",
+    "name": "ClickUp AI Writing Assistant",
+    "shortDesc": "An AI assistant for teams.",
+    "redirectLink": "https://clickup.com/features/ai?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Open Source",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6495d856a691cefe2c608c2d_teachomatic-net-logo.png",
+    "name": "Teach-O-Matic",
+    "shortDesc": "A video generation platform for creating how-to videos.",
+    "redirectLink": "https://www.teachomatic.net/?ref=cosmospixel.ib",
+    "tags": ["Generative Video"]
+},{
+    "pricingModel": "Price Unknown / Product Not Launched Yet",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6495d6c94309fad6933bc4a6_promoted-com-logo.png",
+    "name": "promoted.com",
+    "shortDesc": "A tool to generate copy for ads and optimize.",
+    "redirectLink": "https://promoted.com/?ref=cosmospixel.ib",
+    "tags": ["Marketing"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64937e50177fbae6b6aaf2bb_og.png",
+    "name": "Waveformer",
+    "shortDesc": "A tool to generate music from text.",
+    "redirectLink": "https://waveformer.replicate.dev/?ref=cosmospixel.ib",
+    "tags": ["Music"]
+},{
+    "pricingModel": "GitHub",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64937df49f9561965b2432c6_infinigen.png",
+    "name": "Infinigen",
+    "shortDesc": "A tool to create photorealistic infinite worlds with procedural generation.",
+    "redirectLink": "https://github.com/princeton-vl/infinigen?ref=cosmospixel.ib",
+    "tags": ["Generative Art"]
+},{
+    "pricingModel": "Price Unknown / Product Not Launched Yet",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6494aaf9aa7f735227c758e6_instaverse-logo.png",
+    "name": "instaVerse",
+    "shortDesc": "A tool to create 3D worlds and customize the environment.",
+    "redirectLink": "https://ilumineai.github.io/instaverse/?ref=cosmospixel.ib",
+    "tags": ["Generative Art"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64937df3189e9ab630cda187_https%253A%252F%252F501e60461b3d4d18df9e3d8cbd27fb91.cdn.bubble.io%252Ff1685509038508x909683427467626000%252Fuxbrai_t.jpeg",
+    "name": "UX Brain",
+    "shortDesc": "A tool to uncover actionable insights from user research.",
+    "redirectLink": "https://uxbrain.co/?ref=cosmospixel.ib",
+    "tags": ["Research"]
+},{
+    "pricingModel": "Price Unknown / Product Not Launched Yet",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64937df2dc9be95aa92b7ee7_1653398137-our-ai-1200.png",
+    "name": "Nextatlas",
+    "shortDesc": "A platform for consumer trend forecasting and generate insights.",
+    "redirectLink": "https://www.nextatlas.com/?ref=cosmospixel.ib",
+    "tags": ["Research"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6494a7c7ba6475ac1cabf8ba_videogen-io-logo.png",
+    "name": "VideoGen",
+    "shortDesc": "A tool to generate videos with realistic voices and visuals.",
+    "redirectLink": "https://videogen.io/?ref=cosmospixel.ib",
+    "tags": ["Generative Video"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64937df09f9561965b2431ef_S7eAJ4nZg5zqzBnWlG3e96MC1I.png",
+    "name": "Rejoy",
+    "shortDesc": "An app for households to share calendars, shopping lists, tasks, notes, and more.",
+    "redirectLink": "https://rejoy.app/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64937d23f23d8361e037d67f_Mortgage-INFO.png",
+    "name": "RealtyGenius.AI",
+    "shortDesc": "A real estate assistant to help with securely manage and collaborate on projects.",
+    "redirectLink": "https://realtygenius.ai/?ref=cosmospixel.ib",
+    "tags": ["Chat"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64937d217315bff680d69a49_642a6c1656cbed0fcf7d5c95_642a6a91bb87cb84a74d5555_Capture%2520d%25E2%2580%2599e%25CC%2581cran%25202023-04-03%2520a%25CC%2580%252005.56.14.webp",
+    "name": "Personaliz",
+    "shortDesc": "A tool to generate personalized emails.",
+    "redirectLink": "https://www.personaliz.io/?ref=cosmospixel.ib",
+    "tags": ["Marketing"]
+},{
+    "pricingModel": "Price Unknown / Product Not Launched Yet",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64937d215a35119a103100a7_fav5.webp",
+    "name": "Wrpup",
+    "shortDesc": "A tool to create video highlights from long videos.",
+    "redirectLink": "https://wrpup.com/?ref=cosmospixel.ib",
+    "tags": ["Video Editing"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/649330e3b96748e6c528595a_waveline-ai-logo.png",
+    "name": "Waveline Extract",
+    "shortDesc": "A tool provides api to extract data from documents, images, and PDFs.",
+    "redirectLink": "https://waveline.ai/?ref=cosmospixel.ib",
+    "tags": ["Research"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64924089b493ffe2906871c3_6432d3f23030fdaff4d1b9c4_social%2520graph%2520image.png",
+    "name": "AutoPod",
+    "shortDesc": "A set of plugins for Adobe Premiere Pro to automate editing videos, podcasts and show production.",
+    "redirectLink": "https://www.autopod.fm/?ref=cosmospixel.ib",
+    "tags": ["Video Editing"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6492408896f5bfef87bec7d7_background-video2.webp",
+    "name": "Hourone",
+    "shortDesc": "A tool to generate professional videos.",
+    "redirectLink": "https://hourone.ai/?ref=cosmospixel.ib",
+    "tags": ["Generative Video"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64932e24b36806701d301322_gan-ai-logo.png",
+    "name": "Gan.ai",
+    "shortDesc": "A tool to create personalized videos at scale.",
+    "redirectLink": "https://gan.ai/?ref=cosmospixel.ib",
+    "tags": ["Generative Video"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64932d4276568295598066a9_pluto-fi-logo.png",
+    "name": "Pluto",
+    "shortDesc": "An investing platform to make informed decisions to build and trade with confidence.",
+    "redirectLink": "https://www.pluto.fi/?ref=cosmospixel.ib",
+    "tags": ["Finance"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64924084dac9909236212533_flowjin-banner.jpeg",
+    "name": "Flowjin",
+    "shortDesc": "A tool to create social media clips from podcasts, audio and videos.",
+    "redirectLink": "https://www.flowjin.com/?ref=cosmospixel.ib",
+    "tags": ["Social Media"]
+},{
+    "pricingModel": "Paid",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64924083eb106bce54f75cbb_No-code-machine-learning-to-go-from-input-to-insight-fast..png",
+    "name": "Speak Ai",
+    "shortDesc": "A tool to automate transcription, sentiment analysis, and data visualization from audio, video, and text data.",
+    "redirectLink": "https://speakai.co/?ref=cosmospixel.ib",
+    "tags": [
+        "Speech-To-Text",
+        "Research"
+    ]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64924082bd3c5dd2f068aa48_og-main.png",
+    "name": "Sonic Link",
+    "shortDesc": "A tool to create a customizable landing page with an AI replica for audience engagement.",
+    "redirectLink": "https://soniclink.com/?ref=cosmospixel.ib",
+    "tags": ["Social Media"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64924081153779c7d0b97a40_8wk8a4n8hja4uwkozqt85q5vhahs.jpeg",
+    "name": "Peek AI",
+    "shortDesc": "A mac menu bar app to interact with AI chatbots without an API key.",
+    "redirectLink": "https://prateekkeshari.gumroad.com/l/peek?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64924080153779c7d0b979fd_midjourneystats-og.jpeg",
+    "name": "Midjourney Stats",
+    "shortDesc": "A tool to calculate optimal times to use each Midjourney model.",
+    "redirectLink": "https://midjourneystats.com/?ref=cosmospixel.ib",
+    "tags": ["Productivity"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/64931fd46b8647444921bdbb_fixmycode-logo.png",
+    "name": "Fix My Code",
+    "shortDesc": "A tool to optimize code, make login forms, popups, and navigation menus.",
+    "redirectLink": "https://userway.org/fixmycode?ref=cosmospixel.ib",
+    "tags": ["Generative Code"]
+},{
+    "pricingModel": "GitHub",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6492407f6d98a0bd8c83cd4a_gpt-engineer.png",
+    "name": "GPT Engineer",
+    "shortDesc": "A code-generation tool to create code based on your own specifications.",
+    "redirectLink": "https://github.com/AntonOsika/gpt-engineer?ref=cosmospixel.ib",
+    "tags": ["Generative Code"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/648f41d6fbc9723b6af203c6_eMasteredLogo.jpeg",
+    "name": "eMastered",
+    "shortDesc": "An online mastering tool to improve the sound of music tracks.",
+    "redirectLink": "https://emastered.com/?ref=cosmospixel.ib",
+    "tags": ["Music"]
+},{
+    "pricingModel": "Freemium",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/6491e019244a0a9d676cec79_Screenshot%202023-06-20%20at%2010.51.20%20PM.png",
+    "name": "Lemonstocks",
+    "shortDesc": "A tool to recommend the best top 100 stocks to invest in.",
+    "redirectLink": "https://www.lemonstocks.tech/?ref=cosmospixel.ib",
+    "tags": ["Finance"]
+},{
+    "pricingModel": "Free",
+    "imageLink": "https://global-uploads.webflow.com/63994dae1033718bee6949ce/648f41d52c1bae7eb886fb77_QR-code-AI-art-generator.png",
+    "name": "QR Code AI Art Generator",
+    "shortDesc": "A tool to create custom artwork using QR codes.",
+    "redirectLink": "https://huggingface.co/spaces/huggingface-projects/QR-code-AI-art-generator?ref=cosmospixel.ib",
+    "tags": ["Generative Art"]
 }]
