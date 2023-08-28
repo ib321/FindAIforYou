@@ -114,4 +114,14 @@ export class ListAiComponent implements OnInit {
     this.currentPage++;
     //console.log("loaded"+this.UpdatedAiTools.length+"Searched"+this.searchedToolsCount);
   }
+
+  onCardTagClick(tag: string) {
+    this.selectedTags[tag] = !this.selectedTags[tag];
+    this.onSearchSortOrTag();
+  }
+  
+  onCardPricingClick(pricingModel: string) {
+    this.selectedPricingModels[pricingModel] = !this.selectedPricingModels[pricingModel];
+    this.onSearchSortOrTag();
+  }  
 }

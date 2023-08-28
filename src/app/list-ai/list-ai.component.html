@@ -1,5 +1,7 @@
+<app-heading></app-heading>
+<div class="container">
 <!--------------------------Search Box--------------------------------->
-<div class="search-box-div">
+<div class="row search-box-div">
   <input type="text"
     class="search search-box-div-input search-input" maxlength="256" name="Search"
     placeholder="Search to find specific tools for your needs..."
@@ -11,7 +13,7 @@
 <form (change)="onSearchSortOrTag()" #checkboxForm="ngForm">
   <div class="container">
     <div class="row tags-row">
-      <div class="col-md-2" *ngFor="let tag of tagOptions">
+      <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12" *ngFor="let tag of tagOptions">
         <div class="form-check">
           <input
             class="form-check-input"
@@ -33,7 +35,7 @@
 <form (change)="onSearchSortOrTag()" #checkboxForm="ngForm">
   <div class="container">
     <div class="row price-row">
-      <div class="col" *ngFor="let pricingModel of pricingModelOptions">
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12" *ngFor="let pricingModel of pricingModelOptions">
         <div class="form-check">
           <input
             class="form-check-input"
@@ -53,19 +55,19 @@
 <!------------------------------Summary and Sort row------------------->
 <div class="summary-sort-row row">
 
-  <div class="toolnumber col-md-6">
+  <div class="toolnumber col-md-6 col-sm-6">
     <div class="result-number-div">Showing {{searchedToolsCount}} of {{totalToolsCount}} Total Tools.</div>
   </div>
 
-  <div class="selector col-md-6">
+  <div class="selector col-md-6 col-sm-6 d-flex justify-content-end">
     <div class="dropdown form-block-6 w-form">
-        <select id="sortField" name="sortField" class="btn select-dropdown" [(ngModel)]="sortFieldSelectedValue" (change)="onSearchSortOrTag()">
-          <option value="">Sort (Default - Newest)</option>
-          <option value="sort-asc-name">Sort By Name (A-Z)</option>
-          <option value="sort-desc-name">Sort By Name (Z-A)</option>
-          <option value="sort-desc-date">Date Added (Newest-Oldest)</option>
-          <option value="sort-asc-date">Date Added (Oldest-Newest)</option>
-        </select>
+      <select id="sortField" name="sortField" class="btn select-dropdown" [(ngModel)]="sortFieldSelectedValue" (change)="onSearchSortOrTag()">
+        <option value="">Sort (Default - Newest)</option>
+        <option value="sort-asc-name">Sort By Name (A-Z)</option>
+        <option value="sort-desc-name">Sort By Name (Z-A)</option>
+        <option value="sort-desc-date">Date Added (Newest-Oldest)</option>
+        <option value="sort-asc-date">Date Added (Oldest-Newest)</option>
+      </select>
     </div>
   </div>
 
@@ -74,32 +76,34 @@
 <br>
 <!---------------------------Tools Cards List-------------------------->
 <div class="row">
-  <div class="card-wrapper col-md-6" *ngFor="let aitool of UpdatedAiTools">
+  <div class="card-wrapper col-lg-6 col-md-6 col-sm-12 col-xs-12" *ngFor="let aitool of UpdatedAiTools">
     <div class="card mb-3">
       <div class="card-row row g-0">
-        <div class="card-row-colum1-div1 col-md-5">
-          <a href="{{aitool.redirectLink}}" target="_blank" class="card-row-colum1-link">
-            <img loading="lazy" [src]="aitool.imageLink" alt="alt_card_img" class="img-fluid rounded-start card-row-colum1-div1-img"/>
+        <div class="card-row-column1 col-5">
+          <a href="{{aitool.redirectLink}}" target="_blank" class="card-row-column1-link">
+            <img loading="lazy" [src]="aitool.imageLink" alt="alt_card_img" class="img-fluid rounded-start card-row-column1-img"/>
           </a>
         </div>
-        <div class="card-row-colum2-div1 col-md-7">
+        <div class="card-row-column2 col-7">
           <div class="card-body py-0">
-            <h3 class="card-title">
-              <a href="{{aitool.redirectLink}}" class="card-title-name" target="_blank">{{ aitool.name }}</a>
+            <div class="card-title">
+              <h3 class="card-title">
+                <a href="{{aitool.redirectLink}}" class="card-title-name" target="_blank">{{ aitool.name }}</a>
 
-              <a href="{{aitool.redirectLink}}" target="_blank" class="card-title-redirect">
-                <img loading="lazy" src="assets/share.png" alt="share" class="card-title-redirect-img">
-              </a>
-            </h3>
+                <a href="{{aitool.redirectLink}}" target="_blank" class="card-title-redirect">
+                  <img loading="lazy" src="assets/share.png" alt="share" class="card-title-redirect-img">
+                </a>
+              </h3>
+            </div>
             <div class="card-text card-text-shortdesc">
               <p title="{{ aitool.shortDesc }}">{{ aitool.shortDesc }}</p>
             </div>
             <div class="card-text card-text-tag" *ngFor="let aiToolTag of aitool.tags">
-              <p class="text-tag">{{ aiToolTag }}</p>
+              <p class="text-tag" (click)="onCardTagClick(aiToolTag)">{{ aiToolTag }}</p>
             </div>
             <div class="card-text card-text-model">
-              <p class="text-pricemodel" *ngIf="aitool.pricingModel === 'Price Unknown / Product Not Launched Yet'; else normalPrice">Price Unknown</p>
-              <ng-template #normalPrice><p class="text-pricemodel">{{ aitool.pricingModel }}</ng-template>
+              <p class="text-pricemodel" (click)="onCardPricingClick(aitool.pricingModel)" *ngIf="aitool.pricingModel === 'Price Unknown / Product Not Launched Yet'; else normalPrice">Price Unknown</p>
+              <ng-template #normalPrice><p class="text-pricemodel" (click)="onCardPricingClick(aitool.pricingModel)">{{ aitool.pricingModel }}</ng-template>
             </div>
           </div>
         </div>
@@ -113,3 +117,4 @@
   <button *ngIf="UpdatedAiTools.length !== searchedToolsCount" (click)="loadMoreTools()"><i class="fa fa-spinner fa-spin"></i> Load More</button>
 </div>
 <!--------------------------------------------------------------------->
+</div>

@@ -6,7 +6,6 @@
     margin-bottom: 30px;
 }
 .search-input, .select-dropdown {
-    width: 100%;
     height: 38px;
     color: #333;
     border: 1px solid #ccc;
@@ -29,29 +28,24 @@
   font-weight: 700;
   display: block;
 }
-.selector.col-md-6 {
-    padding-left: 310px;
-}
 
 /* Card Table Row Css */
 .card-wrapper {
-    width: 546px;
-    height: 200px;
+    min-height: 207px;
 }
 
 .card {
-    width: 520px;
-    height: 180px;
+    min-height: 190px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.304);
 }
 .card:hover {
     box-shadow: 0 0 20px rgba(74, 3, 74, 0.8);
 }
 
-.card-row-colum1-div1-img {
+.card-row-column1-img {
     width: 100%;
-    height: 175px;
-    max-height: 175px;
+    height: 100%;
+    max-height: 190px;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -82,22 +76,24 @@
     font-size: 14px;
 }
 
-.card-text-shortdesc p {
-    height: 4em;
-    line-height: 1em;
-}
 
 .card-text-shortdesc {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 2;
     overflow: hidden;
 }
 
 /*price model options css*/
 
-.price-row{
-  --bs-gutter-x: -20rem;
+.price-row {
+    --bs-gutter-x: -14rem;
+  }
+  
+@media (max-width: 576px) {
+    .price-row {
+        --bs-gutter-x: 0;
+    }
 }
 
 .form-check-input{
@@ -125,6 +121,10 @@
 
 .card-text-tag{
     display: inline-block;
+}
+
+.card-text-model{
+    display: flex;
 }
 
 .text-pricemodel {

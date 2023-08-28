@@ -1,23 +1,10 @@
-.div-heading-block {
-  text-align: center;
-  padding: 30px;
-  background-color: #f0f0f0;
+.navbar-nav li a {
+  color: rgb(5, 76, 217);
 }
 
-.heading-big {
-  font-size: 38px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: blueviolet;
-  font-family: cursive;
+.navbar-nav li a:hover {
+  color: rgb(3, 3, 30);
 }
-
-.heading-small {
-  font-size: 26px;
-  font-weight: normal;
-  font-family: cursive;
-}
-
 
 .footer-legal-link {
   color: inherit;
