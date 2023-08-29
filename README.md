@@ -1,12 +1,14 @@
-# FindAIforYou
-
-- FindAIforYou is a web application that allow user to find the latest AI tools according to user need.
-- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+# [ FindAIforYou ](https://findaiforyou.web.app/)
+- FindAIforYou is a web application that allow users find the latest AI tools according to their needs.
+- Our website is now Live and ready to explore at [findaiforyou.web.app](https://findaiforyou.web.app/), hosted on Firebase.
+- We are excited to announce the launch of our website and invite you to check it out.
+- Website Link: [findaiforyou.web.app](https://findaiforyou.web.app/)
 
 ## Technology Used
 
-- Angular: An open-source, TypeScript based front-end web application framework.
-- HTML, CSS, Bootstrap(3.3.6), jquery(2.2.4): Technologies for web design and layout.
+- Angular: An open-source, TypeScript based front-end web application framework. Angular-13.3.12
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5
+- HTML, CSS, Bootstrap(5.3.1), jquery(3.6.4): Technologies for web design and layout.
 
 ## Development server
 

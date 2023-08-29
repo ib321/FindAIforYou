@@ -5,8 +5,7 @@ import { ListAiComponent } from './list-ai/list-ai.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'listAi' },
-  { path: 'listAi', component:  ListAiComponent},
+  { path: '', component:  ListAiComponent},
   { path: 'contact', component: ContactUsComponent },
   { path: 'about', component: AboutUsComponent }
 ];
