@@ -123,5 +123,8 @@ export class ListAiComponent implements OnInit {
   onCardPricingClick(pricingModel: string) {
     this.selectedPricingModels[pricingModel] = !this.selectedPricingModels[pricingModel];
     this.onSearchSortOrTag();
-  }  
+  }
+
+  pickedName : string = "ibPicked";
+  pickedLabel : string = "IB's Picked Tools";
 }

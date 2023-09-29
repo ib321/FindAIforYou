@@ -1,4 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Nyiakeng+Puachue+Hmong&display=swap');
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    transition: background-color 0.5s ease;
+}
+
+/*Dark Mode Code
+Body tag default set color*/
+body.light-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+/*Heading color*/
+body.light-theme .div-heading-block {
+    background-color: #f0f0f0;
+}
+
+body.dark-theme .div-heading-block {
+    background-color: #333;
+}
+
+/*Card color*/
+body.light-theme .card {
+    background-color: #f0f0f0;
+    border-color: #333;
+    color: black;
+}
+
+body.dark-theme .card {
+    background-color: #333;
+    border-color: white;
+    color: white;
+}
+
+body.dark-theme .share-icon {
+    color: white;
+}
+
+body.dark-theme .icon {
+    background-color: black;
+}
+
+body.dark-theme .divcard {
+    border-color: white;
+    box-shadow: 0 0 2px white;
+}
+
+body.dark-theme .text-mute {
+    color: #eeebee;
+}

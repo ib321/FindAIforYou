@@ -31,3 +31,13 @@
       text-decoration: none;
       background-color: transparent;
   }
+
+.text-mute {
+  --bs-text-opacity: 1;
+  color: var(--bs-secondary-color);
+}
+
+.divcard {
+  box-shadow: 0 0 2px black;
+  border: 2px black;
+}

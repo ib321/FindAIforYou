@@ -1,19 +1,18 @@
 .div-heading-block {
     text-align: center;
     padding: 30px;
-    background-color: #f0f0f0;
   }
   
   .heading-big {
-    font-size: 38px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 600;
     margin-bottom: 10px;
     color: blueviolet;
-    font-family: cursive;
+    font-family: 'Noto Serif Nyiakeng Puachue Hmong', cursive;
   }
   
   .heading-small {
-    font-size: 26px;
+    font-size: 27px;
     font-weight: normal;
-    font-family: cursive;
+    font-family: 'Noto Serif Nyiakeng Puachue Hmong',  cursive;
   }

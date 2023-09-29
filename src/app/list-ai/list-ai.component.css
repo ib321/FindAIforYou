@@ -36,6 +36,7 @@
 
 .card {
     min-height: 190px;
+    border-color: #333;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.304);
 }
 .card:hover {
@@ -65,10 +66,6 @@
     font-weight: 700;
     text-decoration: none;
     display: inline;
-}
-.card-title-redirect-img {
-    height: 20px;
-    width: 20px;
 }
 
 .card-text{
@@ -154,63 +151,34 @@
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Noto Serif Nyiakeng Puachue Hmong', cursive;
     font-size: 20px;
     border-radius: 0.4cm;
+    animation: bounce 1s ease-in-out infinite;
   }
-
-  .fa-spinner::before {
-      content: "\f110";
-  }
-
-.fa{
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: var(--fa-display, inline-block);
-  font-style: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-rendering: auto; }
-
-  .fa-spin {
-    -webkit-animation-name: fa-spin;
-            animation-name: fa-spin;
-    -webkit-animation-delay: var(--fa-animation-delay, 0s);
-            animation-delay: var(--fa-animation-delay, 0s);
-    -webkit-animation-direction: var(--fa-animation-direction, normal);
-            animation-direction: var(--fa-animation-direction, normal);
-    -webkit-animation-duration: var(--fa-animation-duration, 2s);
-            animation-duration: var(--fa-animation-duration, 2s);
-    -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-    -webkit-animation-timing-function: var(--fa-animation-timing, linear);
-            animation-timing-function: var(--fa-animation-timing, linear); }
-
-  @media (prefers-reduced-motion: reduce) {
-    .fa-spin {
-      -webkit-animation-delay: -1ms;
-              animation-delay: -1ms;
-      -webkit-animation-duration: 1ms;
-              animation-duration: 1ms;
-      -webkit-animation-iteration-count: 1;
-              animation-iteration-count: 1;
-      -webkit-transition-delay: 0s;
-              transition-delay: 0s;
-      -webkit-transition-duration: 0s;
-              transition-duration: 0s; } }
-
-  @-webkit-keyframes fa-spin {
-    0% {
-      -webkit-transform: rotate(0deg);
-              transform: rotate(0deg); }
+@keyframes bounce {
+    0%,
     100% {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg); } }
-  
-  @keyframes fa-spin {
-    0% {
-      -webkit-transform: rotate(0deg);
-              transform: rotate(0deg); }
-    100% {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg); } }
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+.picked-label {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.picked-input {
+    border-radius: 17%;
+}
+
+.picked-cont {
+    padding: 13px;
+}
+
+.share-icon {
+    color: black;
+}

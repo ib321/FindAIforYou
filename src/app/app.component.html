@@ -1,7 +1,8 @@
 <header>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar navbar-expand-lg navbar-expand-sm">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
+        <img src="../assets/icon.png" loading="lazy" height="43" width="43" alt="Icon">
         <img src="../assets/logo.png" loading="lazy" height="45" width="250" alt="Logo">
       </a>
       <button type="button" class="navbar-toggler" (click)="toggleNavbar()">
@@ -9,6 +10,14 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" [ngClass]="{ 'show': isNavbarOpen }">
         <ul class="navbar-nav">
+          <input type="checkbox" (click)="toggleTheme()" id="toggle_checkbox">
+        <label for="toggle_checkbox">
+          <div id="star">
+            <div class="star" id="star-1">★</div>
+            <div class="star" id="star-2">★</div>
+          </div>
+          <div id="moon"></div>
+        </label>
           <li class="nav-item active">
             <a class="nav-link font-italic" href="/" aria-current="page">Home</a>
           </li>
@@ -29,7 +38,7 @@
 </main>
 
 <footer>
-  <div class="footer-bottom bg-light text-center">
+  <div class="footer-bottom text-center">
     <div class="container-footer py-3">
       <div class="footer-copyright">© 2023 findAIforYou All rights reserved.</div>
       <div class="footer-legal-block d-flex justify-content-center">

@@ -11,4 +11,12 @@ export class AppComponent {
   toggleNavbar() {
     this.isNavbarOpen = !this.isNavbarOpen;
   }
+
+  theme = 'light-theme';
+
+  toggleTheme() {
+    this.theme = this.theme === 'light-theme' ? 'dark-theme' : 'light-theme';
+    document.body.className = this.theme;
+  }
+
 }

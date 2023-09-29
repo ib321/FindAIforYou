@@ -13,7 +13,7 @@
 <form (change)="onSearchSortOrTag()" #checkboxForm="ngForm">
   <div class="container">
     <div class="row tags-row">
-      <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12" *ngFor="let tag of tagOptions">
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6" *ngFor="let tag of tagOptions">
         <div class="form-check">
           <input
             class="form-check-input"
@@ -35,7 +35,7 @@
 <form (change)="onSearchSortOrTag()" #checkboxForm="ngForm">
   <div class="container">
     <div class="row price-row">
-      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12" *ngFor="let pricingModel of pricingModelOptions">
+      <div class="col-lg-2 col-md-4 col-sm-6 col-6" *ngFor="let pricingModel of pricingModelOptions">
         <div class="form-check">
           <input
             class="form-check-input"
@@ -50,6 +50,19 @@
     </div>
   </div>
 </form>
+<!--------------------------------------------------------------------->
+<!---------------------------Picked tools------------------------------>
+<div class="container picked-cont">
+  <div class="row picked-row">
+    <div class="col-12 d-flex justify-content-center align-items-center">
+      <div class="form-check">
+        <input class="form-check-input picked-input" type="checkbox" id="pickedName" name="pickedName"
+          (click)="onCardTagClick(pickedName)" />
+        <label class="form-check-label picked-label" for="pickedName">{{ pickedLabel }}</label>
+      </div>
+    </div>
+  </div>
+</div>
 <!--------------------------------------------------------------------->
 <br>
 <!------------------------------Summary and Sort row------------------->
@@ -91,7 +104,11 @@
                 <a href="{{aitool.redirectLink}}" class="card-title-name" target="_blank">{{ aitool.name }}</a>
 
                 <a href="{{aitool.redirectLink}}" target="_blank" class="card-title-redirect">
-                  <img loading="lazy" src="assets/share.png" alt="share" class="card-title-redirect-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="share-icon" width="19" height="19" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M5 21q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h7v2H5v14h14v-7h2v7q0 .825-.588 1.413T19 21H5Zm4.7-5.3l-1.4-1.4L17.6 5H14V3h7v7h-2V6.4l-9.3 9.3Z">
+                    </path>
+                  </svg>
                 </a>
               </h3>
             </div>
@@ -114,7 +131,7 @@
 <!--------------------------------------------------------------------->
 <!----------------------Load More Button------------------------------->
 <div class="load-more-button" >
-  <button *ngIf="UpdatedAiTools.length !== searchedToolsCount" (click)="loadMoreTools()"><i class="fa fa-spinner fa-spin"></i> Load More</button>
+  <button *ngIf="UpdatedAiTools.length !== searchedToolsCount" (click)="loadMoreTools()"><i class="fa fa-bounce fa-chevron-down"></i> Load More</button>
 </div>
 <!--------------------------------------------------------------------->
 </div>
