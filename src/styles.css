@@ -25,17 +25,13 @@ body.dark-theme {
 }
 
 /*Heading color*/
-body.light-theme .div-heading-block {
-    background-color: #f0f0f0;
-}
-
 body.dark-theme .div-heading-block {
     background-color: #333;
 }
 
 /*Card color*/
 body.light-theme .card {
-    background-color: #f0f0f0;
+    background-color: #fff;
     border-color: #333;
     color: black;
 }

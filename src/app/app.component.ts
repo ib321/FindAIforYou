@@ -14,9 +14,24 @@ export class AppComponent {
 
   theme = 'light-theme';
 
+  constructor() {
+    try {
+      this.theme = localStorage.getItem('theme') || 'light-theme';
+      document.body.className = this.theme;
+    } catch (e) {
+      console.error('Failed to access localStorage', e);
+    }
+  }
+  
   toggleTheme() {
     this.theme = this.theme === 'light-theme' ? 'dark-theme' : 'light-theme';
+    try {
+      localStorage.setItem('theme', this.theme);
+    } catch (e) {
+      console.error('Failed to save theme in localStorage', e);
+    }
     document.body.className = this.theme;
   }
+  
 
 }

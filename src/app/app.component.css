@@ -23,10 +23,10 @@ label {
     display: inline-block;
     position: absolute;
     top: 50%;
-    right: 50%;
-    left: 50%;
-    width: 116px;
-    height: 56px;
+    right: 54%;
+    left: 48%;
+    width: 100px;
+    height: 48px;
     margin: 0 auto;
     background-color: #77b5fe;
     border-radius: 56px;
@@ -38,7 +38,7 @@ label {
 
 #star {
     position: absolute;
-    top: 13px;
+    top: 8px;
     left: 13px;
     width: 30px;
     height: 30px;
@@ -96,7 +96,7 @@ label {
 
 #toggle_checkbox:checked+label #star {
     top: 3px;
-    left: 64px;
+    left: 50px;
     transform: scale(0.3);
     background-color: yellow;
 }
@@ -106,7 +106,7 @@ label {
 }
 
 #toggle_checkbox:checked+label #moon {
-    bottom: 8px;
+    bottom: 4px;
 }
 
 #toggle_checkbox:checked+label #moon:before {

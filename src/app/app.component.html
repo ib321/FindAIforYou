@@ -10,14 +10,16 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" [ngClass]="{ 'show': isNavbarOpen }">
         <ul class="navbar-nav">
-          <input type="checkbox" (click)="toggleTheme()" id="toggle_checkbox">
-        <label for="toggle_checkbox">
-          <div id="star">
-            <div class="star" id="star-1">★</div>
-            <div class="star" id="star-2">★</div>
+          <div>
+            <input type="checkbox" [checked]="theme === 'dark-theme'" (click)="toggleTheme()" id="toggle_checkbox">
+            <label for="toggle_checkbox">
+              <div id="star">
+                <div class="star" id="star-1">★</div>
+                <div class="star" id="star-2">★</div>
+              </div>
+              <div id="moon"></div>
+            </label>
           </div>
-          <div id="moon"></div>
-        </label>
           <li class="nav-item active">
             <a class="nav-link font-italic" href="/" aria-current="page">Home</a>
           </li>
